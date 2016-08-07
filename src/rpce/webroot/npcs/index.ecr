@@ -1,1 +1,6 @@
 <h1>NPCs list</h1>
+<ul>
+  <% all.to_hash.each do |npc| %>
+    <li><strong><%= npc["name"] %></strong></li>
+  <% end %>
+</ul>

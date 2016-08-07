@@ -1,4 +1,5 @@
 get "/npcs/" do
+  all = DB.exec({Int32, Int32, String}, "SELECT id, npc_id, name FROM npcs;")
   render "src/rpce/webroot/npcs/index.ecr", "src/rpce/webroot/layouts/layout.ecr"
 end
 

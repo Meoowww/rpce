@@ -12,8 +12,8 @@ dependencies:
     github: sdogruyol/kemal
     branch: master
   # connector pg
-  kemal-pg:
-    github: sdogruyol/kemal-pg
+  pg:
+    github: will/crystal-pg
   # database migrations
   micrate:
     github: juanedi/micrate
