@@ -1,5 +1,5 @@
-require "./rpce/*"
+require "kemal"
 
-module Rpce
-  # TODO Put your code here
-end
+require "./rpce/webroot/npcs/*"
+
+Kemal.run
