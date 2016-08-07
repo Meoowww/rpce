@@ -7,8 +7,13 @@ authors:
 license: MIT
 
 dependencies:
+  # web framework
   kemal:
     github: sdogruyol/kemal
     branch: master
-          
-          
+  # connector pg
+  kemal-pg:
+    github: sdogruyol/kemal-pg
+  # database migrations
+  micrate:
+    github: juanedi/micrate
