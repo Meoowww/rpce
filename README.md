@@ -18,6 +18,19 @@ TODO: Write usage instructions here
 
 TODO: Write development instructions here
 
+## Features
+
+- mob table
+- npc (sheet, time, space)
+- npc groups (faction, guilds)
+- players (short sheet)
+- map (time and space representation)
+  - layers (borders, territories, npc, mob zones, cities status, events, branches)
+- events (consequences, space, time, links)
+- cities (independants points on the map, movable, removable)
+
+
+
 ## Contributing
 
 1. Fork it ( https://github.com/pouleta/rpce/fork )

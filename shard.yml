@@ -5,3 +5,10 @@ authors:
   - Arthur Poulet <arthur.poulet@mailoo.org>
 
 license: MIT
+
+dependencies:
+  kemal:
+    github: sdogruyol/kemal
+    branch: master
+          
+          
